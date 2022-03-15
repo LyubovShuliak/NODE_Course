@@ -5,16 +5,17 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodeman --ignore feedback.json server.js"
+    "dev": "nodemon --ignore feedback.json ./server.js"
   },
   "keywords": [],
   "author": "Daniel Khan",
   "license": "MIT",
   "dependencies": {
+    "cookie-session": "^2.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3"
   },
   "devDependencies": {
-    "nodeman": "^1.1.2"
+    "nodemon": "^2.0.15"
   }
 }
