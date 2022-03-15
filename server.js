@@ -6,7 +6,7 @@ const FeedbackService = require("./services/FeedbackService");
 const SpeakersService = require("./services/SpeakerService");
 
 const feedbackService = new FeedbackService("./data/feedback.json");
-const speakersService = new FeedbackService("./data/speakers.json");
+const speakersService = new SpeakersService("./data/speakers.json");
 
 const routes = require("./routes");
 
